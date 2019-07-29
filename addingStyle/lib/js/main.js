@@ -6,4 +6,7 @@ for (let i = 0; i < anyName.length; i++){
     anyName[i].style.textShadow = "-6px 5px 2px yellow"
 }
 
+function blurInput{
+    document.getElementsByClassName("name")blur()
+}
 
